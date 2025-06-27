@@ -1,0 +1,6 @@
+from typing import Tuple
+from typing import Any
+import numpy as np
+
+def read(filename: str) -> Tuple[int, np.ndarray[Any, Any]]: ...
+def write(filename: str, rate: int, data: np.ndarray[Any, Any]) -> None: ...
